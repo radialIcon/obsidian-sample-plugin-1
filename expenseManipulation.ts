@@ -43,4 +43,5 @@ export async function playWithTable(app: App) {
 	editor.editor.setCursor(2, 0);
 	editor.editor.replaceSelection(sortedLines.join("\n"));
 	editor.editor.replaceSelection("\n\n");
+	console.log("done");
 }
